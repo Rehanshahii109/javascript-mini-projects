@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RANDOM USER DATA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RANDON USER DATA</h1>
+        <!-- Filters -->
+        <div id="filters">
+            <label><input type="checkbox" value="male"> Male</label>
+            <label><input type="checkbox" value="female"> Female</label>
+        </div>
+        
+        <!-- Search Bar -->
+        <input type="text" id="search" placeholder="Search...">
+        
+        <!-- Display Users -->
+        <div id="user-list" class="row"></div>
+         <!-- Next Button -->
+       <button id="nextBtn" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+    <!-- Profile Modal -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="profileInfo"></div>
+        </div>
+       
+
+    </div>
+       
+    <script src="script.js"></script>
+</body>
+</html>
